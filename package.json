@@ -1,0 +1,23 @@
+{
+  "name": "ansible-joyent-inventory",
+  "version": "1.0.0",
+  "description": "Ansible dynamic inventory for Joyent SmartDC",
+  "main": "joyent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimajalali/ansible-joyent-inventory.git"
+  },
+  "author": "nimajalali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimajalali/ansible-joyent-inventory/issues"
+  },
+  "homepage": "https://github.com/nimajalali/ansible-joyent-inventory#readme",
+  "dependencies": {
+    "smartdc": "^8.1.0",
+    "ssh-fingerprint": "0.0.1"
+  }
+}
